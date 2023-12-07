@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,pre,
+a, abbr, acronym, address, big, code,
+del, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------START EDITING HERE--------------- */
+
+body {
+	
+	background-color: #6ce9ff;
+	font-size: 16px;
+	font-family: Century;
+	color: black;
+}
+
+section	{
+	float: center;
+	background-color:none;
+	width:100%;
+	height:10%;
+	padding-top:15%;
+	margin:0px auto;
+	display:inline;
+}
+@font-face{
+	font-family:Roboto Light;
+	src: url('fonts/Roboto-Light.ttf');
+} 
+
+/*why is this commented out?? */
+/*idk why it was.*/
+
+header {
+	background-color:#0c7eef;
+	background-color:#0c7eef;
+	text-align: center;
+	margin: 0px auto;
+	width:100%;
+	height:100%;
+	padding:0;
+	float:left;
+	font-weight:bold;
+	display: inline;
+	
+}
+h1 {
+	color: black;
+	background-color:#0c7eef;
+	background-color:#0c7eef;
+	text-align: left;
+	float:left;
+	margin:0px auto;
+	font-family: Century;
+	font-size: 30px;
+	text-decoration: underline;
+	text-transform:uppercase;
+	
+	
+	
+}
+/*text-align: center and margin: 0px auto 
+to center objects*/
+h2 {
+	color: black;
+	text-align: center;
+	float: center;
+	margin:0px auto;
+	font-family: Roboto Light;
+	font-size: 50px;
+	text-decoration: underline;
+}
+h3 {
+	text-align: center;
+	font-family: Roboto Light;
+	font-size: 50px;
+
+}
+
+h6 {
+	font-family: Century;
+	text-align:center;
+	font-size: 102px;
+	background-color:#0c7eef;
+	width: 1466px;
+	height: 122px;
+	float: center;
+	margin: 0px auto;
+	color: white;
+}
+h5	{
+	text-align: center;
+	font-size:80px;
+	font-family:Century;
+	font-style:uppercase;
+
+	
+}
+p	{
+	font-family: Century;
+	text-align:center;
+	font-size: 30px;
+}
+
+ul	{
+	text-align: left;
+	margin: 0px auto;
+	display: inline-block;
+	list-style: circle;
+	
+}
+ol	{
+	list-style-type: lower-roman;
+}
+
+li	{
+	margin: 10px;
+}/*ERROR need to get to sit side by side */
+
+dl	{
+	text-align: left;
+}
+
+dt	{
+	font-weight:none;
+}
+a:link	{
+	color: white;
+	text-decoration:none;
+	font-family: 
+}
+
+a:visited	{
+	color: white;
+	text-decoration: none;
+	
+}
+
+a:hover	{
+	color:gray;
+	text-decoration: bold;
+}
+table	{
+	text-align: center;
+	margin: 0px auto;
+	width:60%;
+}
+
+tr	{
+	margin:10px;
+}
+td	{
+	border: 1px solid #ffffff;
+	background-color:black;
+}
+
+
+form	{
+	text-align: center;
+	margin: 0px auto;
+	color: navy;
+}
+
+/*ERROR style of table and form have low color contrast and type style does not match site strategy as well as it could */
+/*What is the command for low contrast setting? I cannot find it in the slides nor the readings -- this has to do with the color contrast of your foreground to background elements
+
+This is how you choose your color meaning you have low contrast between your type color and background color*/
+img.align-left	{
+	float: left;
+	text-align: left;
+}
+
+iframe	{
+	text-align: center;
+	margin: 0px auto;
+}
+
+footer	{
+	float:center;
+	padding-bottom:10;
+	display: inline;
+	text-align: horizontal;
+	font-family: Century;
+	text-align:center;
+	font-size: 172px;
+	background-color:#0c7eef;
+	width: 1466px;
+	height: 172px;
+	float: center;
+	margin: 0px auto;
+}
+
+video	{
+	text-align: center;
+	margin: 0px auto;
+	float: center;
+}
+
+figure	{
+	width: 500px;
+	text-align: center;
+	margin: 0px auto;
+}
